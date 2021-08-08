@@ -1,8 +1,8 @@
-const form = document.querySelector(".js-form"),
-const input = form.querySelector("input"),
+const form = document.querySelector(".js-form");
+const input = form.querySelector("input");
 const greeting = document.querySelector(".js-greetings");
 
-const USER_LS = "username", 
+const USER_LS = "username";
 const SHOWING_CN = "showing";
 
 function saveName(text){
