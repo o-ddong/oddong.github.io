@@ -33,9 +33,9 @@ function loadToDos(){
 
 function paintToDo(text){
     const li = document.createElement("li");
-    delBtn.addEventListener("click", deleteToDo);
     const delBtn = document.createElement("button");
     delBtn.innerHTML = "❌";
+    delBtn.addEventListener("click", deleteToDo);
     const span = document.createElement("span");
     const newid = toDos.length +1;
     li.id = newid;
